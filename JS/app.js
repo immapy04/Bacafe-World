@@ -28,7 +28,7 @@ $(document).ready(function () {
 // --------------------- Timer -----------------------
 
 const countdown = () => {
-    const countDate = new Date("sep 22, 2022 00:00:00").getTime();
+    const countDate = new Date("Oct 20, 2022 00:00:00").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
