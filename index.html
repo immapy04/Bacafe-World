@@ -112,7 +112,7 @@
                             </div>
                             <div class="branding">
                                 <!-- <span>Bacafe</i></span> -->
-                                <img src="/IMG/bacafe logo.png" width="50px">
+                                <img src="IMG/bacafe logo.png" width="50px">
                             </div>
                             <div class="time flex items-center">
                                 <i class="fa-solid fa-clock space-nav"></i>
@@ -150,7 +150,7 @@
                         <div class="welcome flex items-center">
                             <span><b> Welcome to</b></span>
                             <!-- <span>Bacafe</span> -->
-                            <img src="/IMG/bacafe logo.png" width="35px">
+                            <img src="IMG/bacafe logo.png" width="35px">
                         </div>
                         <h1>Nepal's <span> Cake Shopping</span> Website</h1>
                         <p>Come for the Bakery, stay for the Pastry. <br>
@@ -161,7 +161,7 @@
                             <button class="btn btn-secondary">Shop Now</button>
                         </div>
                         <div class="hero-image">
-                            <img src="img/cupcake.png" alt="">
+                            <img src="IMG/cupcake.png" alt="">
                         </div>
                     </div>
                 </header>
@@ -185,7 +185,7 @@
                                 <!-- --------- Food Card ---------  -->
                                 <div class="food-card magic-shadow-sm">
                                     <div class="product-image flex items-center justify-center">
-                                        <img src="img/prod 5.jpg">
+                                        <img src="IMG/prod 5.jpg">
                                     </div>
                                     <hr>
                                     <div>
@@ -211,7 +211,7 @@
                                 </div>
                                 <div class="food-card magic-shadow-sm">
                                     <div class="product-image flex items-center justify-center">
-                                        <img src="img/prod 1.png">
+                                        <img src="IMG/prod 1.png">
                                     </div>
                                     <hr>
                                     <div>
@@ -237,7 +237,7 @@
                                 </div>
                                 <div class="food-card magic-shadow-sm">
                                     <div class="product-image flex items-center justify-center">
-                                        <img src="img/prod 4.jpg">
+                                        <img src="IMG/prod 4.jpg">
                                     </div>
                                     <hr>
                                     <div>
@@ -263,7 +263,7 @@
                                 </div>
                                 <div class="food-card magic-shadow-sm">
                                     <div class="product-image flex items-center justify-center">
-                                        <img src="img/prod 7.jpg">
+                                        <img src="IMG/prod 7.jpg">
                                     </div>
                                     <hr>
                                     <div>
@@ -304,7 +304,7 @@
                     <div class="container">
                         <h1 class="section-heading">About Fresh Meal</h1>
                         <div class="about-meal-wrap flex">
-                            <div class="flex-1"> <img src="/IMG/prod 5.jpg" alt=""></div>
+                            <div class="flex-1"> <img src="IMG/prod 5.jpg" alt=""></div>
                             <div class="flex-1">
                                 <h2>Freshmeal is a long established fact that reader will be distracted</h2>
                                 <p>A cupcake is a small cake designed to serve one person, which may be baked in a small
@@ -393,7 +393,7 @@
                 <section class="subscribe">
                     <div class="container flex items-center">
                         <div>
-                            <img src="/IMG/prod 1.png" alt="" srcset="">
+                            <img src="IMG/prod 1.png" alt="" srcset="">
                         </div>
                         <div>
                             <h1>Subscribe to our Newsletter</h1>
@@ -491,16 +491,16 @@
                                     <img src="IMG/food-table.jpg" alt="">
                                 </div>
                                 <div>
-                                    <img src="/IMG/food-table.jpg" alt="">
+                                    <img src="IMG/food-table.jpg" alt="">
                                 </div>
                                 <div>
-                                    <img src="/IMG/food-table.jpg" alt="">
+                                    <img src="IMG/food-table.jpg" alt="">
                                 </div>
                                 <div>
-                                    <img src="/IMG/food-table.jpg" alt="">
+                                    <img src="IMG/food-table.jpg" alt="">
                                 </div>
                                 <div>
-                                    <img src="/IMG/food-table.jpg" alt="">
+                                    <img src="IMG/food-table.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -520,71 +520,9 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="/JS/app.js"></script>
+    <script src="JS/app.js"></script>
 
     <!-- --------------------- New JS-----------------------  -->
-    <script>
-
-        $(document).ready(function () {
-            $('.food-slider').slick({
-                autoplay: true,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                prevArrow: ".prev-btn",
-                nextArrow: ".next-btn",
-                responsive: [
-                    {
-                        breakpoint: 992,
-                        settings: {
-                            slidesToShow: 2,
-                        }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1,
-                        }
-                    }
-                ]
-            });
-            $('.nav-trigger').click(function () {
-                $('.site-content-wrapper').toggleClass('scaled');
-            });
-        });
-
-        // --------------------- Timer -----------------------
-
-        const countdown = () => {
-            const countDate = new Date("sep 22, 2022 00:00:00").getTime();
-            const now = new Date().getTime();
-            const gap = countDate - now;
-
-            //converting miliseconds 
-            const second = 1000;
-            const minute = second * 60;
-            const hour = minute * 60;
-            const day = hour * 24;
-
-            //calculation of time
-
-            const textDay = Math.floor(gap / day);
-            const textHour = Math.floor((gap % day) / hour);
-            const textMinute = Math.floor((gap % hour) / minute);
-            const textSecond = Math.floor((gap % minute) / second);
-
-
-            //
-            document.querySelector(".day").innerText = textDay;
-            document.querySelector(".hour").innerText = textHour;
-            document.querySelector(".minute").innerText = textMinute;
-            document.querySelector(".second").innerText = textSecond;
-            // console.log(gap);
-        };
-        setInterval(countdown, 1000);
-
-// --------------------- Timer -----------------------
-
-    </script>
     <!-- --------------------- New JS -----------------------  -->
 
 
