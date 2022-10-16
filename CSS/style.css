@@ -994,7 +994,7 @@ input[type="submit"]:hover{
 }
 .product-sort option{
     font-family: "poppins",sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1rem;
 }
 select{
