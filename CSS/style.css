@@ -866,8 +866,14 @@ footer.copyright a{
         flex-direction: column;
         padding: 0.50rem 1.50rem;
     }
-
-    }
+}
+@media (max-width:360px){
+    .time{
+        display: none;
+        }
+        .contact{
+            margin-top: 1.5rem;
+        }
 }
 /* --------------- Mobile Media Query ------------ */
 
