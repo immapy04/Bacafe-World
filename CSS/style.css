@@ -159,7 +159,8 @@ nav .top .contact h5,nav .top .time h5{
     margin-bottom: 0.25rem;
 }
 nav .top .contact h6, nav .top .time h6{
-    font-family: "poppins",Light 300;
+    font-family: "poppins",sans-serif;
+    font-weight: 300;
     letter-spacing: 0.055rem;
     font-size: 0.75rem;
     color: var(--ternary);
@@ -174,7 +175,8 @@ nav .top .contact .space-nav, nav .top .time .space-nav{
 nav .navbar a{
     text-decoration: none;
     color: var(--secondary);
-    font-family: "poppins",SemiBold 600;
+    font-family: "poppins",sans-serif;
+    font-weight: 600;
     font-size: 1rem;
     padding: 1rem 1.5rem;
     transition: all .3s ease;
@@ -238,7 +240,8 @@ header.hero {
     overflow: hidden;
 }
 header.hero .welcome span{
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
     color: var(--secondary);
     margin-right: 0.75rem;
 }
@@ -254,7 +257,8 @@ header.hero h1 span{
     color: var(--primary);
 }
 header.hero p{
-    font-family: "poppins", Regular 400;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
     width: 50%;
     line-height: 1.5;
     margin-bottom: 1rem;
@@ -312,7 +316,8 @@ section.gift-products{
     background: var(--heaven);
 }
 .section-heading{
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
     text-align: center;
     position: relative;
     margin-bottom: 6rem;
@@ -348,7 +353,8 @@ hr{
     margin: 1rem 0;
 }
 section.top-products .food-slider .food-card h2{
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 0.25rem;
 }
@@ -360,12 +366,14 @@ section.top-products .food-slider .food-card .stars .fa-star{
     color: var(--primary);
 }
 section.top-products .food-slider .food-card .price{
-    font-family: "poppins",Regular 400;
+    font-family: "poppins",sans-serif;
+    font-weight: 400;
     color: var(--danger);
     margin-bottom: 1rem;
 }
 section.top-products .food-slider .food-card button{
-    font-family: "poppins",Medium 500;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
     color: var(--secondary);
     background: var(--heaven);
     border: 2px solid var(--primary);
@@ -436,7 +444,8 @@ section.about-meal img{
     flex: 1;
 }
 section.about-meal h2{
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
     font-size: 1.5rem;
     color: var(--secondary);
     margin-bottom: 2rem;
@@ -477,7 +486,8 @@ section.our-services .service-card .icon{
     transform: translateX(-50%);
 }
 section.our-services .service-card h2{
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
@@ -520,13 +530,15 @@ section.big-deal .timer div{
     justify-content: center;
 }
 section.big-deal .timer div span:first-child{
-    font-family: "poppins",SemiBold 600;
+    font-family: "poppins",sans-serif;
+    font-weight: 600;
     font-size: 2.5rem;
     color: var(--heaven);
     margin-bottom: 0.05rem;
 }
 section.big-deal .timer div span:last-child{
-    font-family: "poppins",Medium 500;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
     color: var(--heaven);
 }
 .text-pure{
@@ -540,7 +552,7 @@ section.subscribe{
     background: var(--primary);
 }
 section.subscribe .container > div:first-child img{
-    width: 50%;
+    width: 100%;
 }
 section.subscribe .container > div:first-child{
     flex: 1;
@@ -549,12 +561,14 @@ section.subscribe .container > div:last-child{
     flex: 1;
 }
 section.subscribe h1{
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
 section.subscribe p{
-    font-family: "poppins",Medium 500;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
     font-size: 1rem;
     margin-bottom: 1.5rem;
     line-height: 1.5;
@@ -575,7 +589,7 @@ section.subscribe .input-wrap input:focus{
     outline: none;
 }
 section.subscribe .input-wrap button{
-    padding: 0.8rem 2rem;
+    padding: 0.8rem;
     border: none;
     background: var(--primary);
     color: var(--pure);
@@ -596,6 +610,7 @@ section.subscribe .input-wrap button:hover{
 section.contact-us{
     padding-top: 0;
     padding-bottom: 0;
+    padding-left: 1rem;
 }
 section.contact-us .contact-info-wrapper{
     padding: 4rem 0;
@@ -622,7 +637,8 @@ section.contact-us .contact-info > div > div > div{
    flex-direction: column;
 }
 section.contact-us .contact-info > div > div > div span:first-child{
-    font-family: "poppins",Bold 700;
+    font-family: 'poppins',sans-serif;
+    font-weight: 700;
     margin-bottom: 0.25rem;
 }
 
@@ -731,7 +747,8 @@ footer.copyright a{
 .nav-background .mobile-nav ul li a{
     text-decoration: none;
     color: var(--secondary);
-    font-family: "poppins",Medium 500;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
 }
 .nav-background .mobile-nav ul li a:hover{
     color: var(--primary);
@@ -744,7 +761,8 @@ footer.copyright a{
     margin-right: 1rem;
 }
 .nav-background .contact h5, .nav-background .time h5{
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
     margin-bottom: 0.25rem;
     font-size: 1rem;
 }
@@ -757,7 +775,8 @@ footer.copyright a{
 .nav-background .cart a{
     color: var(--secondary);
     text-decoration: none;
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
 }
 .nav-background .cart .space{
     margin-right: 0.75rem;
@@ -845,7 +864,9 @@ footer.copyright a{
     }
     section.subscribe .container{
         flex-direction: column;
-        padding: 0.50rem;
+        padding: 0.50rem 1.50rem;
+    }
+
     }
 }
 /* --------------- Mobile Media Query ------------ */
@@ -866,7 +887,8 @@ footer.copyright a{
     text-align: center;
     padding: 10px 0 10px 0;
     border-bottom: 1px solid silver;
-    font-family: "poppins",Medium 500;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
     font-size: 28px;
 }
 .center form{
@@ -965,7 +987,8 @@ input[type="submit"]:hover{
     justify-content: space-between !important;
 }
 .product-sort option{
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
     font-size: 1rem;
 }
 select{
@@ -1029,12 +1052,14 @@ select:focus{
 }
 .serve-content .serve-text h2{
     padding: 1rem 0.75rem;
-    font-family: "poppins",Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
 }
 .serve-content .serve-text p{
     padding: 0 .75rem;
     font-size: 1rem;
-    font-family: "poppins",SemiBold 600;
+    font-family: "poppins",sans-serif;
+    font-weight: 600;
 }
 .serve-container{
     display: flex;
@@ -1058,7 +1083,8 @@ select:focus{
 .terms a{
     text-decoration: none;
     color: var(--heaven);
-    font-family: "poppins", Bold 700;
+    font-family: "poppins",sans-serif;
+    font-weight: 700;
     background: var(--secondary);
     padding: 0.75rem 1rem;
     border-radius: 4px;
