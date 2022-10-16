@@ -847,9 +847,6 @@ footer.copyright a{
         flex-direction: column;
         padding: 0.50rem;
     }
-    .nav-top{
-        padding: 2rem;
-    }
 }
 /* --------------- Mobile Media Query ------------ */
 
