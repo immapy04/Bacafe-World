@@ -874,6 +874,13 @@ footer.copyright a{
         .contact{
             margin-top: 1.5rem;
         }
+        .contact-us .contact-info span{
+            font-size: 0.8rem;
+            padding-right: 1rem;
+        }
+        .contact-us .contact-info .co-img{
+            margin-right: 0.5rem !important;
+        }
 }
 /* --------------- Mobile Media Query ------------ */
 
