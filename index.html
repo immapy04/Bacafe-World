@@ -688,10 +688,13 @@
                             <h1>Subscribe to our Newsletter</h1>
                             <p> Get all latest activity,products and blogs of Bacafe.It's free of cost, so subscribe now
                                 and be up to date with us!</p>
-                            <div class="input-wrap">
-                                <input type="text" placeholder="info@bacafe.com">
-                                <button>Subscribe</button>
-                            </div>
+                            <form name="submit-to-google-sheet">
+                                <div class="input-wrap">
+                                    <input type="email" name="email" placeholder="info@bacafe.com">
+                                    <button>Subscribe</button>
+                                </div>
+                            </form>
+                            <span id="msg"></span>
                         </div>
                     </div>
                 </section>
@@ -811,8 +814,33 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="JS/app.js"></script>
 
-    <!-- --------------------- New JS-----------------------  -->
-    <!-- --------------------- New JS -----------------------  -->
+    <!-- --------------------- Web to Google Sheets -----------------------  -->
+
+    <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+    </form>
+
+    <script>
+        const msg = document.getElementById("msg");
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx40DNtSHdOGlo-orUE_MrYIP5RyWldSmu2arFcFCZXm_htVvhf7sZeO2JzrdEssM4Rvw/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Thank you for subscribing!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!-- --------------------- Web to Google Sheets -----------------------  -->
 
 
 </body>
