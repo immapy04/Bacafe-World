@@ -719,12 +719,31 @@ footer{
     padding: 4rem 0;
 }
 footer.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding: 1rem 0;
     background:var(--secondary);
     color: var(--pure);
     text-align: center;
     font-size: 1rem;
 }
+
+/* ------------- Count ---------------- */
+
+.count{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.count p{
+    margin: .5rem;
+}
+.count #visit-count{
+    color: var(--primary);
+}
+
+/* ------------- Count ---------------- */
 footer.copyright a{
     color: var(--primary);
     text-decoration: none;

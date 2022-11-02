@@ -803,6 +803,11 @@
                     <div>
                         Copyright &copy; 2022 - All rights reserved by <a href="#">Bacon's Developer</a>
                     </div>
+                    <div class="count">
+                        <p>Total Visits:</p>
+                        <p id="visit-count">0</p>
+                        <p>Times</p>
+                    </div>
                 </footer>
 
                 <!-- -------- Footer ----------  -->
@@ -843,6 +848,18 @@
 
     <!-- --------------------- Web to Google Sheets -----------------------  -->
 
+    <script>
+        const counter = document.getElementById("visit-count");
+        countVisits();
+
+        function countVisits() {
+            fetch('https://api.countapi.xyz/update/bacafe/mouse/?amount=1')
+                .then((res) => res.json())
+                .then((res) => {
+                    counter.innerHTML = res.value;
+                });
+        }
+    </script>
 
 </body>
 
