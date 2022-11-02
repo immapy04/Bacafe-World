@@ -235,6 +235,7 @@ nav .navbar a:hover{
 header.hero {
     height: 600px;
     background-image: url(../IMG/hero.png);
+    background-size: cover;
     background-position: 0% 0%;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -505,7 +506,7 @@ section.big-deal{
     background: linear-gradient(
         rgba(35,43,56,0.9),
         rgba(35,43,56,0.9)
-    ),url(../IMG/food-table.jpg);
+    ),url(../IMG/fruit\ bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
