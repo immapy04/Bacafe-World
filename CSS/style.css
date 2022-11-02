@@ -903,6 +903,9 @@ footer.copyright a{
         justify-content: center;
         align-items: center;
     }
+    footer.copyright{
+        flex-direction: column;
+    }
 }
 @media (max-width:360px){
     .time{
