@@ -300,6 +300,7 @@ header.hero button:first-child{
 }
 header.hero .hero-image{
     position: absolute;
+    width:600px;
     top: -40px;
     right: 40px;
 }
@@ -656,6 +657,7 @@ footer .box{
     margin-right: 2rem;
     text-align: center;
 }
+
 footer .instagram-api img{
     width: 100%;
     height: 100%;
@@ -703,7 +705,7 @@ footer .box:nth-child(3) > div{
     justify-content: center;
 }
 footer .box:nth-child(3){
-    text-align: left;
+    text-align: center;
 }
 footer .box:nth-child(3) h3{
     text-align: center;
@@ -856,6 +858,9 @@ footer.copyright a{
     footer .box:nth-child(3) h3{
         text-align: left;
     }
+    footer .box:nth-child(3){
+        text-align: left;
+    }
     footer .box:nth-child(3) > div{
         display: block;
     }
@@ -867,6 +872,10 @@ footer.copyright a{
         margin-top: 1rem;
         margin-bottom: 0.25rem;
     }
+    header.hero .hero-image{
+        right: -200px;
+        top: 100px;
+}
 }
 
 @media (max-width:576px){
@@ -906,6 +915,15 @@ footer.copyright a{
     footer.copyright{
         flex-direction: column;
     }
+    header.hero .hero-image{
+        right: -350px;
+        top: 100px;
+    }
+    footer .brand-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media (max-width:360px){
     .time{
@@ -937,6 +955,10 @@ footer.copyright a{
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        header.hero .hero-image{
+            right: -450px;
+            top: 100px;
         }
 }
 /* --------------- Mobile Media Query ------------ */
