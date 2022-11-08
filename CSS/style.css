@@ -21,6 +21,10 @@ body{
     --heaven:#ffffff;
     --footer:#2d333f;
 }
+a{
+    text-decoration: none;
+    color: var(--secondary);
+}
 
 /* colors  */
 
@@ -1183,3 +1187,45 @@ select:focus{
 
 
 /* -------------------------- Service --------------------------- */
+
+/* ----------------- coming soon ------------------- */
+
+.coming-soon{
+    max-width: 900px;
+    color:var(--pure);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coming-soon .soon-img{
+    width: 350px;
+    padding-top: 1rem ;
+}
+.coming-soon .soon-desc span{
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.coming-soon .soon-desc p{
+    font-size: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.whatsapp{
+    border: 1px solid var(--primary);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+.whatsapp .fa-brands{
+    color: var(--primary);
+    font-size: 2rem;
+}
+.whatsapp h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 0.5rem;
+}
+.primary{
+    color: var(--primary);
+}
+/* ----------------- coming soon ------------------- */
